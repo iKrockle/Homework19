@@ -7,9 +7,9 @@ import java.util.List;
 
 public interface EmployeeService {
     List<Employee> employees = new ArrayList<>();
-    int maxEmployees = 1;
+    int maxEmployees = 2;
 
-    String addEmployee(String firstName, String lastName);
-    String delEmployee(String firstName, String lastName);
-    String findEmployee(String firstName, String lastName);
+    Employee addEmployee(String firstName, String lastName);
+    Employee delEmployee(String firstName, String lastName);
+    Employee findEmployee(String firstName, String lastName);
 }

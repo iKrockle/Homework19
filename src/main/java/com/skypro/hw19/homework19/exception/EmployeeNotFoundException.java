@@ -1,4 +1,4 @@
-package com.skypro.hw19.homework19;
+package com.skypro.hw19.homework19.exception;
 
 
 import org.springframework.http.HttpStatus;
